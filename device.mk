@@ -321,8 +321,11 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.mmi.usb.rc \
     init.qcom.rc \
-    init.msm.usb.configfs.rc \
-    ueventd.qcom.rc
+    init.target.rc \
+    init.qcom.usb.rc \
+    ueventd.qcom.rc \
+    init.spectrum.rc \
+    init.spectrum.sh
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \
